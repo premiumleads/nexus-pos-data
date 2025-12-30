@@ -1,1 +1,44 @@
-..
+{
+  "Global_Settings": {
+    "theme_default": "dark",
+    "allow_theme_toggle": "true",
+    "currency_code": "USD",
+    "whatsapp_number": "+1234567890",
+    "whatsapp_message": "Hello, I am interested in Nexus POS",
+    "promo_banner_active": "true",
+    "promo_text_en": "Limited Offer: 50% OFF First 3 Months!",
+    "promo_text_fr": "Offre Limitée: 50% de réduction!",
+    "promo_text_ar": "عرض محدود: خصم 50% على أول 3 أشهر!"
+  },
+  "Navigation": [
+    { "order": 1, "label_en": "Home", "label_fr": "Accueil", "label_ar": "الرئيسية", "link_url": "#hero", "icon_class": "fa-house" },
+    { "order": 2, "label_en": "Features", "label_fr": "Fonctionnalités", "label_ar": "الميزات", "link_url": "#features", "icon_class": "fa-layer-group" },
+    { "order": 3, "label_en": "Comparison", "label_fr": "Comparaison", "label_ar": "مقارنة", "link_url": "#comparison", "icon_class": "fa-scale-balanced" },
+    { "order": 4, "label_en": "Pricing", "label_fr": "Tarifs", "label_ar": "الأسعار", "link_url": "#pricing", "icon_class": "fa-tags" }
+  ],
+  "Marketing_Hero": [
+    { "element_id": "hero_headline", "type": "text", "content_en": "Don't Let a Bad Internet Connection Ruin Your Empire", "content_fr": "Ne laissez pas une mauvaise connexion ruiner votre empire", "content_ar": "لا تدع انقطاع الإنترنت يخرب إمبراطوريتك" },
+    { "element_id": "hero_subhead", "type": "text", "content_en": "The only POS system with 100+ features built for resilience. Works offline, syncs instantly.", "content_fr": "Le seul système POS avec 100+ fonctionnalités conçu pour la résilience.", "content_ar": "نظام نقاط البيع الوحيد بأكثر من 100 ميزة مصمم للمرونة." },
+    { "element_id": "primary_cta", "type": "button", "content_en": "Start Free Trial", "content_fr": "Essai Gratuit", "content_ar": "جربة مجانية", "cta_link": "#pricing" }
+  ],
+  "Stats_Counter": [
+    { "id": 1, "label_en": "Active Users", "label_fr": "Utilisateurs Actifs", "label_ar": "مستخدمين نشطين", "value": 5043, "suffix": "+" },
+    { "id": 2, "label_en": "Transactions Saved", "label_fr": "Transactions Sauv.", "label_ar": "معاملات محفوظة", "value": 125000, "suffix": "+" },
+    { "id": 3, "label_en": "Money Saved", "label_fr": "Argent Économisé", "label_ar": "أموال مدخرة", "value": 2.5, "suffix": "M USD" }
+  ],
+  "Features_Master_List": [
+    { "ID": 1, "Module": "System", "Feature_Name_EN": "Offline Mode", "Feature_Name_FR": "Mode Hors Ligne", "Feature_Name_AR": "بدون إنترنت", "Icon_Class": "fa-wifi", "Description_EN": "Works without internet", "Description_FR": "Fonctionne sans internet", "Description_AR": "يعمل بدون إنترنت" },
+    { "ID": 2, "Module": "POS", "Feature_Name_EN": "Split Bill", "Feature_Name_FR": "Diviser Addition", "Feature_Name_AR": "تقسيم الفاتورة", "Icon_Class": "fa-divide", "Description_EN": "Equal/Unequal split", "Description_FR": "Partage Égale/Inégale", "Description_AR": "تقسيم متساوي/غير متساوي" },
+    { "ID": 3, "Module": "Inventory", "Feature_Name_EN": "Recipe Builder", "Feature_Name_FR": "Constructeur Recette", "Feature_Name_AR": "بناء الوصفة", "Icon_Class": "fa-utensils", "Description_EN": "Auto deduct ingredients", "Description_FR": "Déduction auto ingrédients", "Description_AR": "خصم تلقائي للمكونات" },
+    { "ID": 4, "Module": "KDS", "Feature_Name_EN": "Timer Display", "Feature_Name_FR": "Affichage Minuteur", "Feature_Name_AR": "عرض المؤقت", "Icon_Class": "fa-stopwatch", "Description_EN": "Track cooking time", "Description_FR": "Suivre temps cuisson", "Description_AR": "تتبع وقت الطبخ" }
+  ],
+  "Social_Proof": [
+    { "id": 1, "author_name": "John Doe", "role_en": "Owner", "role_fr": "Propriétaire", "role_ar": "مالك", "type": "text", "content_en": "Nexus saved us during outage!", "content_fr": "Nexus nous a sauvés!", "content_ar": "أنقذنا Nexus!", "rating": 5 },
+    { "id": 2, "author_name": "Sarah", "role_en": "Chef", "role_fr": "Chef", "role_ar": "طاهية", "type": "video", "media_url": "https://www.w3schools.com/html/mov_bbb.mp4", "content_en": "The KDS is amazing.", "content_fr": "Le KDS est incroyable.", "content_ar": "شاشة المطبخ مذهلة.", "rating": 5 }
+  ],
+  "Pricing_Plan": [
+    { "plan_name": "Starter", "price_month": 49, "currency": "USD", "features_list": "[\"1 Terminal\", \"Basic Inventory\"]", "is_popular": "false" },
+    { "plan_name": "Business", "price_month": 99, "currency": "USD", "features_list": "[\"3 Terminals\", \"KDS Included\", \"Recipe Builder\"]", "is_popular": "true" }
+  ],
+  "Media_Map": {}
+}
